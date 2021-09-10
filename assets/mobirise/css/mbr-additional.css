@@ -4818,26 +4818,45 @@ section.lazy-placeholder:after {
     font-size: 4.25rem;
   }
 }
-.cid-rnElCX30bL {
+.cid-sIEADNesPR {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rnElCX30bL [class^="socicon-"]:before,
-.cid-rnElCX30bL [class*=" socicon-"]:before {
+.cid-sIEADNesPR [class^="socicon-"]:before,
+.cid-sIEADNesPR [class*=" socicon-"]:before {
   line-height: 44px;
 }
-.cid-rnElCX30bL .btn-social {
+.cid-sIEADNesPR .btn-social {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  position: relative;
+  color: #232323;
+  cursor: pointer;
   border-color: #d82126;
 }
-.cid-rnElCX30bL .btn-social:hover {
+.cid-sIEADNesPR .btn-social i {
+  top: 0;
+  line-height: 44px;
+  width: 44px;
+}
+.cid-sIEADNesPR .btn-social:hover {
+  color: #fff;
   background: #d82126;
 }
-.cid-rnElCX30bL .btn-social:hover i.socicon {
+.cid-sIEADNesPR .btn-social:hover i.socicon {
   color: #ffffff !important;
 }
+.cid-sIEADNesPR .btn-social + .btn {
+  margin-left: .1rem;
+}
 @media (max-width: 767px) {
-  .cid-rnElCX30bL .btn {
+  .cid-sIEADNesPR .btn {
     font-size: 20px !important;
   }
 }
