@@ -1834,7 +1834,7 @@ section.lazy-placeholder:after {
 .cid-rnG8fhd6VT {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: linear-gradient(45deg, #f8e92e, #d82126);
+  background: linear-gradient(45deg, #d82126, #f8e92e);
 }
 .cid-rnG8fhd6VT .btn {
   margin: 0 0 .5rem 0;
@@ -1851,6 +1851,69 @@ section.lazy-placeholder:after {
 .cid-sIFcvKXSbz .container-fluid {
   padding: 0;
 }
+.cid-sIW6gNmj7X {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #d82126, #f8e92e);
+}
+@media (min-width: 992px) {
+  .cid-sIW6gNmj7X .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sIW6gNmj7X .mbr-figure {
+    padding-top: 3rem;
+  }
+}
+.cid-sIVIOCyPNT {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-sIVIOCyPNT .carousel-item {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-sIVIOCyPNT .carousel-item.active,
+.cid-sIVIOCyPNT .carousel-item-next,
+.cid-sIVIOCyPNT .carousel-item-prev {
+  display: flex;
+}
+.cid-sIVIOCyPNT .carousel-controls a {
+  transition: opacity .5s;
+  font-size: 2rem;
+}
+.cid-sIVIOCyPNT .carousel-controls a span {
+  position: absolute;
+  top: 180px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #585858;
+  background: #c8c6c6;
+  opacity: .5;
+}
+.cid-sIVIOCyPNT .carousel-controls a:hover span {
+  opacity: 1;
+}
+.cid-sIVIOCyPNT .user_image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+.cid-sIVIOCyPNT .user_image img {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+@media (max-width: 230px) {
+  .cid-sIVIOCyPNT .user_image {
+    width: 100%;
+    height: auto;
+  }
+}
 .cid-sIFcWtovly {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1864,7 +1927,7 @@ section.lazy-placeholder:after {
   padding: 0;
 }
 .cid-rnEf0nkSfR {
-  background: linear-gradient(45deg, #f8e92e, #d82126);
+  background: linear-gradient(45deg, #d82126, #f8e92e);
 }
 @media (min-width: 992px) {
   .cid-rnEf0nkSfR .mbr-figure {
