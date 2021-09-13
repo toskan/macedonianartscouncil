@@ -1078,11 +1078,222 @@ section.lazy-placeholder:after {
 .cid-sIER248iYQ .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rnAdEprD1u {
-  background-image: url("../../../assets/images/socksx-1-2000x1125.jpg");
+.cid-sIP9Qzoscs {
+  padding-top: 135px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
 }
-.cid-rnAdEprD1u H1 {
-  color: #ffffff;
+.cid-sIP9Qzoscs P {
+  color: #767676;
+}
+.cid-sIR37e5hHe {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-sIR37e5hHe .item {
+  padding-bottom: 2rem;
+}
+.cid-sIR37e5hHe .carousel-control,
+.cid-sIR37e5hHe .close {
+  background: #1b1b1b;
+}
+.cid-sIR37e5hHe .carousel-control-prev {
+  margin-left: 2.5rem;
+}
+.cid-sIR37e5hHe .carousel-control-next {
+  margin-right: 2.5rem;
+}
+.cid-sIR37e5hHe .close {
+  position: fixed;
+  opacity: 0.5;
+  font-size: 35px;
+  font-weight: 300;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  top: 2.5rem;
+  right: 2.5rem;
+  line-height: 70px;
+  border: none;
+  text-align: center;
+  text-shadow: none;
+  z-index: 5;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  font-family: 'MobiriseIcons';
+}
+.cid-sIR37e5hHe .close::before {
+  content: '\e91a';
+}
+.cid-sIR37e5hHe .close:hover {
+  opacity: 1;
+  background: #000;
+  color: #fff;
+}
+.cid-sIR37e5hHe .carousel-control {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  margin-top: -35px;
+  line-height: 70px;
+  border-radius: 50%;
+  font-size: 35px;
+  border: 0;
+  opacity: 0.5;
+  text-shadow: none;
+  z-index: 5;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.cid-sIR37e5hHe .carousel-inner > .active {
+  display: block;
+}
+.cid-sIR37e5hHe .carousel-control.left {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-sIR37e5hHe .carousel-control.right {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-sIR37e5hHe .carousel-control .icon-next,
+.cid-sIR37e5hHe .carousel-control .icon-prev {
+  margin-top: -18px;
+  font-size: 40px;
+  line-height: 27px;
+}
+.cid-sIR37e5hHe .carousel-control:hover {
+  background: #1b1b1b;
+  color: #fff;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .cid-sIR37e5hHe .carousel-control,
+  .cid-sIR37e5hHe .carousel-indicators,
+  .cid-sIR37e5hHe .modal .close {
+    position: fixed;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sIR37e5hHe .mbr-slider .carousel-control {
+    top: auto;
+    bottom: 20px;
+  }
+  .cid-sIR37e5hHe .mbr-slider > .container .carousel-control {
+    margin-bottom: 0;
+  }
+}
+.cid-sIR37e5hHe .carousel-indicators {
+  bottom: 0;
+  margin-bottom: 3px;
+}
+@media (max-width: 991px) {
+  .cid-sIR37e5hHe .carousel-indicators {
+    margin-bottom: 3.625rem !important;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sIR37e5hHe .carousel-indicators {
+    display: none;
+  }
+}
+.cid-sIR37e5hHe .carousel-indicators .active,
+.cid-sIR37e5hHe .carousel-indicators li {
+  width: 7px;
+  height: 7px;
+  margin: 3px;
+  background: #1b1b1b;
+  opacity: 0.5;
+  border: 4px solid #1b1b1b;
+}
+.cid-sIR37e5hHe .carousel-indicators .active {
+  background: #fff;
+}
+.cid-sIR37e5hHe .carousel-indicators li {
+  max-width: 15px;
+  max-height: 15px;
+  border-radius: 50%;
+}
+.cid-sIR37e5hHe .modal {
+  padding-left: 0 !important;
+  position: fixed;
+  overflow: hidden;
+  padding-right: 0 !important;
+}
+.cid-sIR37e5hHe .modal-dialog {
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cid-sIR37e5hHe .modal-content {
+  border-radius: 0;
+  border: none;
+  background: transparent;
+}
+.cid-sIR37e5hHe .modal-body {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.cid-sIR37e5hHe .modal-body .carousel-item {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.cid-sIR37e5hHe .modal-body img {
+  width: 100%;
+  object-fit: contain;
+  max-height: calc(100vh - 1.75rem);
+}
+.cid-sIR37e5hHe .carousel {
+  width: 100%;
+}
+.cid-sIR37e5hHe .modal-backdrop.in {
+  opacity: 0.8;
+}
+.cid-sIR37e5hHe .modal.fade .modal-dialog {
+  -webkit-transition: margin-top 0.3s ease-out;
+  -moz-transition: margin-top 0.3s ease-out;
+  -o-transition: margin-top 0.3s ease-out;
+  transition: margin-top 0.3s ease-out;
+}
+.cid-sIR37e5hHe .modal.fade .modal-dialog,
+.cid-sIR37e5hHe .modal.in .modal-dialog {
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.cid-sIR37e5hHe .mbr-gallery .item-wrapper {
+  cursor: pointer;
+}
+.cid-sIR37e5hHe a {
+  display: block;
+}
+.cid-sIR37e5hHe a.img {
+  pointer-events: none;
+}
+.cid-sIPaftyGz6 {
+  padding-top: 45px;
+  padding-bottom: 75px;
+  background-color: #ffffff;
+}
+.cid-sIPaftyGz6 P {
+  color: #767676;
+}
+.cid-sIRaNd2gRH {
+  padding-top: 90px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/socksx-1-2000x1125.jpg");
 }
 .cid-rnAhSpHRty {
   padding-top: 90px;
