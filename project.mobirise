@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "MAC",
+    "name": "Macedonian Arts Council",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -72,7 +72,7 @@
     "versionPublish": "5.4.1",
     "screenshot": "screenshot.png",
     "imageResize": true,
-    "mbrsiteDomain": "ywikirl0k1",
+    "mbrsiteDomain": "ysuwxonqvt",
     "witsec-white-label": true,
     "witsec-mailform": false,
     "witsec-language": "en",
@@ -108,7 +108,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Macedonian Arts Council",
         "meta_descr": "Dedicates itself to the promotion and affirmation of Macedonian cultural heritage.",
         "header_custom": "",
         "footer_custom": "",
