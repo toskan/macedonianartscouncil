@@ -1,7 +1,10 @@
+const equalHeightDivs = (larger, smaller) => {
+	smaller.style.height = `${larger.offsetHeight}px`;
+};
+
 window.addEventListener('DOMContentLoaded', (event) => {
-	let largerVideoTitleHeight =
-		document.getElementById('video-title-larger').offsetHeight;
-	document.getElementById(
-		'video-title-smaller'
-	).style.height = `${largerVideoTitleHeight}px`;
+	equalHeightDivs(
+		document.getElementById('video-title-larger'),
+		document.getElementById('video-title-smaller')
+	);
 });
