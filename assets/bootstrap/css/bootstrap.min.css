@@ -5981,6 +5981,9 @@ a.close.disabled {
 	clear: both;
 	content: '';
 }
+.carousel-item-affiliations {
+	height: 150px;
+}
 .carousel-item {
 	align-items: center;
 	position: relative;

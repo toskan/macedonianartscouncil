@@ -873,7 +873,9 @@ input[type='range'] {
 		height: calc(100vh - 1rem);
 	}
 }
-
+.carousel-item-affiliations {
+	height: 150px;
+}
 .carousel-item {
 	text-align: center;
 }
