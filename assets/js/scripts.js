@@ -22,17 +22,25 @@ windowEventListeners.forEach((item) =>
 				document.getElementById('video-title-smaller')
 			);
 		}
+
 		if (document.getElementById('carousel-partings-largest')) {
 			equalHeightDivsCarousel(
 				document.getElementById('carousel-partings-largest'),
 				document.querySelectorAll('.carousel-item-partings')
 			);
 		}
+
 		if (document.getElementById('carousel-affiliations-largest')) {
 			equalHeightDivsCarousel(
 				document.getElementById('carousel-affiliations-largest'),
 				document.querySelectorAll('.carousel-item-affiliations')
 			);
 		}
+
+		document.getElementById('burger-lines').onclick = function () {
+			document
+				.getElementById('mac-logo')
+				.classList.toggle('mac-logo-div');
+		};
 	})
 );

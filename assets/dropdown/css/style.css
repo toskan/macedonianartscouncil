@@ -1,3 +1,11 @@
+.mac-logo-div {
+	position: sticky;
+	height: 75px;
+	width: 79px;
+	top: 15px;
+	left: 10px;
+	z-index: 10000;
+}
 .navbar-dropdown {
 	left: 0;
 	padding: 0;
