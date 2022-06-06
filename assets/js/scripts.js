@@ -41,6 +41,9 @@ windowEventListeners.forEach((item) =>
 			document
 				.getElementById('mac-logo')
 				.classList.toggle('mac-logo-div');
+			document
+				.getElementById('menu2-2v')
+				.classList.toggle('nav-section-pad');
 		};
 	})
 );

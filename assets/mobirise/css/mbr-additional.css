@@ -1881,6 +1881,11 @@ section.lazy-placeholder:after {
 	-webkit-transform: rotateY(-180deg);
 	transform: rotateY(-180deg);
 }
+.card_back > h4,
+.card_back > h5 {
+	text-decoration: underline;
+	font-size: 1em;
+}
 .cid-rnD5voPlSO .card {
 	min-height: 300px;
 }
@@ -5630,6 +5635,9 @@ section.lazy-placeholder:after {
 		padding: 0;
 		transition-duration: 0.5s;
 		transition-property: opacity, padding, height;
+	}
+	.home-li-padding {
+		padding-top: 1em;
 	}
 	.cid-sIER248iYQ .dropdown.open > .dropdown-menu {
 		position: relative;
