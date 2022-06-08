@@ -1,0 +1,40 @@
+@media (min-width: 1121px) {
+	.map-div {
+		min-width: 1100px;
+	}
+	.map-poster {
+		width: 60%;
+	}
+}
+@media (max-width: 1120px) {
+	.map-poster {
+		width: 75%;
+	}
+}
+@media (min-width: 1120px) {
+	.map-div {
+		min-width: 1000px;
+	}
+}
+@media (max-width: 991px) {
+	.map-div {
+		min-width: none;
+	}
+	.map-poster {
+		width: 40%;
+	}
+	.map-text-div {
+		padding-left: 0 !important;
+	}
+	.map-poster-div {
+		padding-right: 0 !important;
+		padding-bottom: 1em !important;
+	}
+	.map-text-div > div > p {
+		padding: 0 4em;
+	}
+	.map-poster-div > div > p {
+		padding: 0 6em !important;
+		padding-top: 1em !important;
+	}
+}
