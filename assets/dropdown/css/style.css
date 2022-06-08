@@ -177,13 +177,21 @@
 .nav-dropdown .dropdown-item:hover {
 	background: none;
 }
-
+@media (min-width: 1400px) {
+	.padding-left-ul {
+		margin-left: 5vh !important;
+	}
+}
+@media (max-width: 1150px) {
+	.padding-left-ul {
+		margin-left: 5vh !important;
+	}
+}
 @media (max-width: 767px) {
 	.nav-dropdown.navbar-toggleable-sm {
 		bottom: 0;
 		display: none;
 		left: 0;
-		overflow-x: hidden;
 		position: fixed;
 		top: 0;
 		transform: translateX(-100%);
