@@ -1753,19 +1753,18 @@ section.lazy-placeholder:after {
 }
 .cid-rnAp8c5oO4 .footer-lower .social-list .mbr-iconfont-social {
 	font-size: 1.3rem;
-	color: #232323;
+	color: white;
 }
 .cid-rnAp8c5oO4 .footer-lower .social-list .soc-item {
-	margin: 0 0.5rem;
+	padding: 0.9em 0.8em;
 }
 .cid-rnAp8c5oO4 .footer-lower .social-list a {
 	margin: 0;
-	opacity: 0.5;
 	-webkit-transition: 0.2s linear;
 	transition: 0.2s linear;
 }
 .cid-rnAp8c5oO4 .footer-lower .social-list a:hover {
-	opacity: 1;
+	opacity: 0.5;
 }
 @media (max-width: 767px) {
 	.cid-rnAp8c5oO4 .footer-lower .social-list {

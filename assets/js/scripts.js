@@ -23,6 +23,25 @@ windowEventListeners.forEach((item) =>
 			);
 		}
 
+		if (document.getElementById('home-map')) {
+			equalHeightDivs(
+				document.getElementById('home-map'),
+				document.getElementById('home-country')
+			);
+			equalHeightDivs(
+				document.getElementById('home-map'),
+				document.getElementById('home-partings')
+			);
+			equalHeightDivs(
+				document.getElementById('home-map-title'),
+				document.getElementById('home-country-title')
+			);
+			equalHeightDivs(
+				document.getElementById('home-map-title'),
+				document.getElementById('home-partings-title')
+			);
+		}
+
 		if (document.getElementById('carousel-partings-largest')) {
 			equalHeightDivsCarousel(
 				document.getElementById('carousel-partings-largest'),
