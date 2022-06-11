@@ -41,6 +41,17 @@
 .team-item > div > div > p {
 	font-size: 1.2rem;
 }
+.audio-works-link:hover {
+	color: white !important;
+	opacity: 0.5;
+}
+.display-1.project-header {
+	font-size: 3.5rem;
+	padding: 3.5rem 1rem !important ;
+}
+.grey-font {
+	color: #767676;
+}
 @media (min-width: 576px) {
 }
 @media (min-width: 768px) {
@@ -67,12 +78,17 @@
 		max-width: 550px;
 	}
 }
+@media (min-width: 1400px) {
+	.container.partings-container {
+		max-width: 1320px;
+	}
+}
 @media (max-width: 1199.98px) {
 	.margin-lilts-soundcloud {
 		margin: 4rem 0rem !important;
 	}
 	.home-card-button {
-		min-height: 75px;
+		min-height: 60px;
 	}
 }
 @media (max-width: 991.98px) {

@@ -1936,8 +1936,8 @@ section.lazy-placeholder:after {
 }
 .cid-rnG8fhd6VT {
 	margin-top: 70px;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	background: linear-gradient(45deg, #d82126, #f8e92e);
 }
 .cid-sIFcvKXSbz {
@@ -1953,9 +1953,8 @@ section.lazy-placeholder:after {
 	padding: 0;
 }
 .cid-sIW6gNmj7X {
-	padding-top: 90px;
-	padding-bottom: 90px;
-	background-image: url('../../../assets/images/partings-large-340x340.jpg');
+	padding-top: 25px;
+	padding-bottom: 70px;
 }
 @media (min-width: 992px) {
 	.cid-sIW6gNmj7X .mbr-figure {
