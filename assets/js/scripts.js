@@ -8,12 +8,6 @@ const equalHeightDivs = (larger, smaller) => {
 	smaller.style.height = `${larger.offsetHeight}px`;
 };
 
-const equalHeightDivsCarousel = (largest, allItems) => {
-	allItems.forEach(
-		(item) => (item.style.height = `${largest.offsetHeight}px`)
-	);
-};
-
 windowEventListeners.forEach((item) =>
 	window.addEventListener(item, (event) => {
 		if (document.getElementById('video-title-larger')) {
