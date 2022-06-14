@@ -23,27 +23,52 @@ windowEventListeners.forEach((item) =>
 			);
 		}
 
-		if (document.getElementById('carousel-partings-largest')) {
-			equalHeightDivsCarousel(
-				document.getElementById('carousel-partings-largest'),
-				document.querySelectorAll('.carousel-item-partings')
+		if (
+			document.getElementById('map-p') &&
+			window.matchMedia('(min-width: 992px)').matches
+		) {
+			equalHeightDivs(
+				document.getElementById('map-p'),
+				document.getElementById('map-poster')
 			);
 		}
 
-		if (document.getElementById('carousel-affiliations-largest')) {
-			equalHeightDivsCarousel(
-				document.getElementById('carousel-affiliations-largest'),
-				document.querySelectorAll('.carousel-item-affiliations')
-			);
+		if (document.getElementById('burger-lines')) {
+			document.getElementById('burger-lines').onclick = function () {
+				document
+					.getElementById('mac-logo')
+					.classList.toggle('mac-logo-div');
+				document
+					.getElementById('menu2-2v')
+					.classList.toggle('nav-section-pad');
+			};
 		}
 
-		document.getElementById('burger-lines').onclick = function () {
+		if (
+			document.getElementById('map-title') &&
+			window.matchMedia('(max-width: 991.98px)').matches
+		) {
 			document
-				.getElementById('mac-logo')
-				.classList.toggle('mac-logo-div');
+				.getElementById('map-p-div')
+				.classList.add('map-p-toggle-off');
+		}
+
+		const toggleMap = () => {
 			document
-				.getElementById('menu2-2v')
-				.classList.toggle('nav-section-pad');
+				.getElementById('map-p-div')
+				.classList.toggle('map-p-toggle-on');
+			document
+				.getElementById('map-p-div')
+				.classList.toggle('map-p-toggle-off');
+			document
+				.getElementById('info-div-map')
+				.classList.toggle('info-div-map-toggle-off');
+			document
+				.getElementById('map-poster')
+				.classList.toggle('map-poster-toggle-off');
 		};
+
+		document.getElementById('info-button-map').onclick = toggleMap;
+		document.getElementById('close-button-map').onclick = toggleMap;
 	})
 );

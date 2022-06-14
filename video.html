@@ -149,7 +149,7 @@
             <div class="container mx-auto map-div">
                 <div class="media-container-row pb-3">
                     <div class="col-12">
-                        <h1 class="mbr-section-title mbr-fonts-style mbr-black text-center display-1">
+                        <h1 class="mbr-section-title mbr-fonts-style mbr-black text-center display-1" id="map-title">
                             MY
                             AMERICAN
                             PILGRIMAGE
@@ -158,10 +158,11 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-sm-12 col-md-12 map-text-div text-justify">
-                        <div class="">
-                            <!-- style="font-size: 1rem; line-height: 1.72;" REMOVED  -->
-                            <p class="mbr-text mbr-fonts-style display-7 text-justify grey-font">This narrative
+                    <div class="col-xl-2 col-lg-1 d-lg-inline-block d-none"></div>
+                    <div class="col-xl-4 col-lg-5 col-sm-12 col-md-12 map-text-div text-justify d-lg-inline-block"
+                        id="map-p-div">
+                        <div class="" id="map-p">
+                            <p class="mbr-text mbr-fonts-style display-7 grey-font">This narrative
                                 documentary
                                 chronicles the Americanization of Stoyan Christowe, a distinguished journalist, author,
                                 and a
@@ -182,16 +183,41 @@
                                 truth – his own identity.
                             </p>
                         </div>
+                        <div class=" d-lg-none d-md-inline-block text-center map-poster-close" id="close-div-map">
+                            <div>
+                                <button class="p-0 border-0" id="close-button-map"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="rgb(216, 33, 38)"
+                                        style="width: 1.8em;">
+                                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                        <path
+                                            d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+                                    </svg></button>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="col-xl-6 col-lg-6 col-sm-12 col-md-12 align-left map-poster-div">
-                        <div class=" ">
-                            <img class="map-poster" src="assets/images/my_american_pilgrimage_poster.jpg"
+                    <div class="col-xl-4 col-lg-5 col-sm-12 col-md-12">
+                        <div class="text-lg-left text-center">
+                            <img class="" id="map-poster" src="assets/images/my_american_pilgrimage_poster.jpg"
                                 alt="Movie Poster:My American Pilgrimage">
                         </div>
                     </div>
+                    <div class=" d-lg-none  text-center map-poster-info" id="info-div-map">
+                        <div class="">
+                            <span style="font-size: 1em">READ ABOUT THE FILM <button class="p-0 border-0"
+                                    id="info-button-map"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                        fill="rgb(216, 33, 38)"
+                                        style="width: 2.5em;margin-left: .7em;position: relative; bottom: 0.2em;">
+                                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z" />
+                                    </svg></button></span>
 
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-1 d-lg-inline-block d-none"></div>
                 </div>
+
+
             </div>
         </section>
 
@@ -231,8 +257,8 @@
                     <div class="col-sm-12 col-md-12 col-lg-6 justify-content-center py-4">
                         <div class="row pb-4">
                             <div class="col-12 text-center">
-                                <p class="h5 mbr-section-title pb-4 mbr-fonts-style display-1" id="video-title-smaller"
-                                    style="font-size: 2em;">ART
+                                <p class="h5 mbr-section-title pb-4 mbr-fonts-style mbr-black display-1"
+                                    id="video-title-smaller" style="font-size: 2em;">ART
                                     WHISPERS
                                 </p>
                             </div>
@@ -250,8 +276,8 @@
                     <div class="col-sm-12 col-md-12 col-lg-6 justify-content-center py-4">
                         <div class="pb-4 row">
                             <div class="col-12 text-center">
-                                <p class="h5 mbr-section-title pb-4 mbr-fonts-style display-1" id="video-title-larger"
-                                    style="font-size: 2em;">COLORS OF MACEDONIA
+                                <p class="h5 mbr-section-title pb-4 mbr-fonts-style mbr-black display-1"
+                                    id="video-title-larger" style="font-size: 2em;">COLORS OF MACEDONIA
                                 </p>
                             </div>
                         </div>
