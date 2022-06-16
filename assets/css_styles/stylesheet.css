@@ -78,14 +78,14 @@
 	.iframe-container-partings {
 		padding: 6% 15% !important;
 	}
-	.iframe-video-div-map {
-		width: 65%;
-	}
-	.iframe-video-div:nth-child(2),
-	.iframe-video-div:nth-child(3) {
+	.iframe-video-div,
+	.iframe-video-div {
 		width: 100%;
 		padding-left: 3em;
 		padding-right: 3em;
+	}
+	.iframe-video-div-map {
+		width: 65%;
 	}
 }
 @media (max-width: 991.98px) {
