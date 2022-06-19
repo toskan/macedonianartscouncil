@@ -38,6 +38,39 @@
 	padding: 1rem 3rem;
 	border-radius: 3px;
 }
+#info-button-map > span > svg:hover {
+	opacity: 0.7;
+	transition: all 0.3s ease-in-out;
+}
+#info-button-map:hover {
+	color: #d82126;
+	transition: all 0.3s ease-in-out;
+}
+.grow {
+	transition: all 0.3s ease-in-out;
+}
+.grow:hover {
+	transform: scale(1.05);
+}
+#back-top-button {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #d82126;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 1.3rem;
+	padding: 10px 17px;
+}
+
+#back-top-button:hover {
+	background-color: #96171a;
+}
 /* //transition: all 0.3s ease-in-out;  */
 @media (min-width: 576px) {
 }

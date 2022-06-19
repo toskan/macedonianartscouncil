@@ -8,6 +8,17 @@ const equalHeightDivs = (larger, smaller) => {
 	smaller.style.height = `${larger.offsetHeight}px`;
 };
 
+const toggleMap = () => {
+	document.getElementById('map-p-div').classList.toggle('map-p-toggle-on');
+	document.getElementById('map-p-div').classList.toggle('map-p-toggle-off');
+	document
+		.getElementById('info-div-map')
+		.classList.toggle('info-div-map-toggle-off');
+	document
+		.getElementById('map-poster')
+		.classList.toggle('map-poster-toggle-off');
+};
+
 windowEventListeners.forEach((item) =>
 	window.addEventListener(item, (event) => {
 		if (document.getElementById('video-title-larger')) {
@@ -47,22 +58,26 @@ windowEventListeners.forEach((item) =>
 				.classList.add('map-p-toggle-off');
 		}
 
-		const toggleMap = () => {
-			document
-				.getElementById('map-p-div')
-				.classList.toggle('map-p-toggle-on');
-			document
-				.getElementById('map-p-div')
-				.classList.toggle('map-p-toggle-off');
-			document
-				.getElementById('info-div-map')
-				.classList.toggle('info-div-map-toggle-off');
-			document
-				.getElementById('map-poster')
-				.classList.toggle('map-poster-toggle-off');
-		};
+		if (document.getElementById('map-title')) {
+			document.getElementById('info-button-map').onclick = toggleMap;
+			document.getElementById('close-button-map').onclick = toggleMap;
+		}
 
-		document.getElementById('info-button-map').onclick = toggleMap;
-		document.getElementById('close-button-map').onclick = toggleMap;
+		let mybutton = document.getElementById('back-top-button');
+		let elementTarget = document.getElementById('features3-3w');
+
+		const scrollFunction = () =>
+			window.scrollY >
+			elementTarget.offsetTop + elementTarget.offsetHeight
+				? (mybutton.style.display = 'block')
+				: (mybutton.style.display = 'none');
+
+		const topFunction = () =>
+			document.getElementById('features3-37').scrollIntoView();
+
+		if (elementTarget) {
+			window.onscroll = scrollFunction;
+			mybutton.onclick = topFunction;
+		}
 	})
 );
