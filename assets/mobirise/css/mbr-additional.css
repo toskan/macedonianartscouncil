@@ -1866,6 +1866,8 @@ section.lazy-placeholder:after {
 	left: 0px;
 	text-align: center;
 	background-color: #eee;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
 }
 .cid-rnD5voPlSO .card-front {
 	z-index: 2;
