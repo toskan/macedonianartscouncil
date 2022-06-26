@@ -6,11 +6,12 @@
 	left: 0;
 	z-index: -1;
 	position: fixed;
-
-	/* This is the important part */
 	will-change: transform;
 }
-
+.whispers-com-button {
+	display: flex;
+	justify-content: center;
+}
 .team-item > .item-caption {
 	padding-top: 1rem;
 	padding-bottom: 0.5rem;

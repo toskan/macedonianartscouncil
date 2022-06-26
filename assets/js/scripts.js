@@ -36,6 +36,10 @@ windowEventListeners.forEach((item) =>
 				document.getElementById('map-p'),
 				document.getElementById('map-poster')
 			);
+			equalHeightDivs(
+				document.getElementById('col-of-mac'),
+				document.getElementById('art-whispers-video')
+			);
 		}
 
 		if (document.getElementById('burger-lines')) {
