@@ -114,7 +114,10 @@
 	left: 25px;
 }
 .students-carousel-caption {
-	height: 100px;
+	color: #767676;
+}
+.edu-col-text > div {
+	padding: 4em;
 }
 @media (min-width: 576px) {
 }
@@ -262,7 +265,7 @@
 		width: 115%;
 	}
 	.college-caption {
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
 }
 @media (max-width: 767.98px) {
