@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="assets/dropdown/css/style.css">
         <link rel="stylesheet" href="assets/theme/css/style.css">
         <link rel="stylesheet" href="assets/gallery/style.css">
+        <link rel="stylesheet" href="assets/css_styles/stylesheet.css">
         <link rel="preload"
             href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap"
             as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -156,18 +157,24 @@
         </section>
 
         <section>
-            <div class="container mt-3 mb-5">
+            <div class="container mt-3 mb-5 uni-pictures">
                 <div class="row mb-5">
                     <div class="col-6">
                         <div>
-                            <img src="/assets/images/education_cyril_and_methodius_university_campus_skopje.jpg"
+                            <img src="assets/images/education_cyril_and_methodius_university_campus_skopje.jpg"
                                 alt="Cyril and Methodius University" width="100%">
                         </div>
+                        <div class="college-caption">
+                            <p>Ss. Cyril and Methodius <br class="d-md-none"> University - Skopje</p>
+                        </div>
                     </div>
-                    <div class=" col-6">
-                        <div>
-                            <img src="/assets/images/education_middleburry_college.png" alt="Middleburry College"
-                                style="position: relative; top: 65px; right: 45px; z-index: 1;" width="100%">
+                    <div class="col-6 relative-vermont-uni">
+                        <div class="">
+                            <img src="assets/images/education_middleburry_college.png" alt="Middleburry College"
+                                width="100%">
+                        </div>
+                        <div class="college-caption">
+                            <p>Middleburry College - Vermont</p>
                         </div>
                     </div>
                 </div>
@@ -187,13 +194,13 @@
                                 a different academic year and it will be managed, in perpetuity, by the
                                 US based education institution.</p>
                         </div>
-                        <div class="col-12 mbr-text mbr-fonts-style display-5 col-md-6 my-auto p-5">
+                        <div class="col-12 mbr-text mbr-fonts-style display-5 col-md-6 my-md-auto p-5">
                             <div>
                                 <p style="font-size: .78em">The Macedonian Arts Council is in discussions with several
                                     institutions that played a major role in the shaping of Stoyan Christowe’s writing
                                     and political careers, for the purpose of establishing a permanent endowment fund
                                     through which each year one economically disadvantaged high school graduate in
-                                    Macedonia will be selected to attend college at the Sts. Cyril and Methodius
+                                    Macedonia will be selected to attend college at the Saints Cyril and Methodius
                                     University in the capitol, Skopje.</p>
                             </div>
                         </div>
@@ -212,27 +219,15 @@
                         <div class="mbr-slider slide carousel" data-keyboard="false" data-bs-keyboard="false"
                             data-ride="false" data-bs-ride="false" data-interval="false" data-bs-interval="false"
                             data-bs-pause="false" data-pause="false">
-                            <ol class="carousel-indicators">
-                                <li data-app-prevent-settings="" data-target="#slider2-33" data-bs-target="#slider2-33"
-                                    class=" active" data-slide-to="0" data-bs-slide-to="0"></li>
-                                <li data-app-prevent-settings="" data-target="#slider2-33" data-bs-target="#slider2-33"
-                                    data-slide-to="1" data-bs-slide-to="1"></li>
-                                <li data-app-prevent-settings="" data-target="#slider2-33" data-bs-target="#slider2-33"
-                                    data-slide-to="2" data-bs-slide-to="2"></li>
-                                <li data-app-prevent-settings="" data-target="#slider2-33" data-bs-target="#slider2-33"
-                                    data-slide-to="3" data-bs-slide-to="3"></li>
-                            </ol>
-                            <div class="carousel-inner" role="listbox">
+                            <div class="carousel-inner" role="listbox" style="background-color: black; color: white;">
                                 <div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false"
-                                    style="background-image: url(assets/images/girls-380x285.jpg);">
+                                    style="background-image: url(assets/images/girls-380x285.jpg); ">
                                     <div class="container container-slide">
                                         <div class="image_wrapper">
-                                            <div class="mbr-overlay"></div><img src="assets/images/girls-380x285.jpg"
-                                                title="FULL SCREEN SLIDER">
-                                            <div class="carousel-caption justify-content-center">
-                                                <div class="col-10 align-center">
-                                                    <p class="lead mbr-text mbr-fonts-style display-7">Class of 2014</p>
-                                                </div>
+                                            <img src="assets/images/girls-380x285.jpg" title="FULL SCREEN SLIDER">
+                                            <div class="col-12 align-center students-carousel-caption">
+                                                <p class="lead mbr-text mbr-fonts-style display-7 p-4">Class of 2014
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -241,14 +236,11 @@
                                     style="background-image: url(assets/images/ana-380x285.jpg);">
                                     <div class="container container-slide">
                                         <div class="image_wrapper">
-                                            <div class="mbr-overlay"></div><img src="assets/images/ana-380x285.jpg"
-                                                title="VIDEO SLIDE">
-                                            <div class="carousel-caption justify-content-center">
-                                                <div class="col-10 align-center">
-                                                    <p class="lead mbr-text mbr-fonts-style display-7">Ana Milosheska -
-                                                        Women in the New Тestament (Bachelor of Arts in South Slavic and
-                                                        Macedonian Literature)</p>
-                                                </div>
+                                            <img src="assets/images/ana-380x285.jpg" title="VIDEO SLIDE">
+                                            <div class="col-12 align-center students-carousel-caption">
+                                                <p class="lead mbr-text mbr-fonts-style display-7">Ana Milosheska -
+                                                    Women in the New Тestament (Bachelor of Arts in South Slavic and
+                                                    Macedonian Literature)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -257,14 +249,11 @@
                                     style="background-image: url(assets/images/thesis-380x285.jpg);">
                                     <div class="container container-slide">
                                         <div class="image_wrapper">
-                                            <div class="mbr-overlay"></div><img src="assets/images/thesis-380x285.jpg"
-                                                title="IMAGE SLIDE">
-                                            <div class="carousel-caption justify-content-center">
-                                                <div class="col-10 align-center">
-                                                    <p class="lead mbr-text mbr-fonts-style display-7">Vesna Denkina -
-                                                        Orpheus’ Doctrine of the Afterlife (Bachelor of Arts in
-                                                        Classical Philology)</p>
-                                                </div>
+                                            <img src="assets/images/education_vesna_380x285.jpg" title="IMAGE SLIDE">
+                                            <div class="col-12 align-center students-carousel-caption">
+                                                <p class="lead mbr-text mbr-fonts-style display-7">Vesna Denkina -
+                                                    Orpheus’ Doctrine of the Afterlife (Bachelor of Arts in
+                                                    Classical Philology)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -273,14 +262,11 @@
                                     style="background-image: url(assets/images/valentina-380x285.jpg);">
                                     <div class="container container-slide">
                                         <div class="image_wrapper">
-                                            <div class="mbr-overlay"></div><img
-                                                src="assets/images/valentina-380x285.jpg" title="FULL SCREEN SLIDER">
-                                            <div class="carousel-caption justify-content-center">
-                                                <div class="col-10 align-center">
-                                                    <p class="lead mbr-text mbr-fonts-style display-7">Valentina
-                                                        Gorgievska - Weapons names in Mycenaean Greek (Bachelor of Arts
-                                                        in Classical Philology)</p>
-                                                </div>
+                                            <img src="assets/images/valentina-380x285.jpg" title="FULL SCREEN SLIDER">
+                                            <div class="align-center students-carousel-caption">
+                                                <p class="col-12 lead mbr-text mbr-fonts-style display-7">Valentina
+                                                    Gorgievska - Weapons names in Mycenaean Greek (Bachelor of Arts
+                                                    in Classical Philology)</p>
                                             </div>
                                         </div>
                                     </div>

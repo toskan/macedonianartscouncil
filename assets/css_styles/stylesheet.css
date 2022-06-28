@@ -103,6 +103,19 @@
 	background-color: #96171a;
 }
 /* //transition: all 0.3s ease-in-out;  */
+.relative-vermont-uni {
+	position: relative;
+	top: 65px;
+	right: 45px;
+	z-index: 1;
+}
+.uni-pictures {
+	position: relative;
+	left: 25px;
+}
+.students-carousel-caption {
+	height: 100px;
+}
 @media (min-width: 576px) {
 }
 @media (min-width: 768px) {
@@ -248,6 +261,9 @@
 	.book-cover-div > img {
 		width: 115%;
 	}
+	.college-caption {
+		font-size: 0.9em;
+	}
 }
 @media (max-width: 767.98px) {
 	.team-item > .item-caption > .item-name > p {
@@ -306,6 +322,9 @@
 		right: 20px;
 		padding: 5px 9px;
 	}
+	.college-caption {
+		font-size: 0.8em;
+	}
 }
 @media (max-width: 575.98px) {
 	.team-item > .item-caption > .item-name > p {
@@ -345,5 +364,8 @@
 	.iframe-video-div {
 		padding-right: 0.8em;
 		padding-left: 0.8em;
+	}
+	.college-caption {
+		font-size: 0.7em;
 	}
 }
