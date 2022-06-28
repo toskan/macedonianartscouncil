@@ -116,8 +116,10 @@
 .students-carousel-caption {
 	color: #767676;
 }
-.edu-col-text > div {
-	padding: 4em;
+.carousel-inner-edu {
+	background-color: #efefef;
+	color: white;
+	min-height: 500px;
 }
 @media (min-width: 576px) {
 }
@@ -147,6 +149,15 @@
 	}
 	.team-item > .item-caption > .item-name {
 		min-height: 3em;
+	}
+	.edu-col-text > div {
+		padding: 4em 2.5em 4em 3.5em;
+	}
+	.cid-rowjJvyg8P .image_wrapper {
+		height: 400px;
+	}
+	.carousel-inner-edu {
+		min-height: 500px;
 	}
 }
 @media (min-width: 1200px) {
@@ -267,6 +278,12 @@
 	.college-caption {
 		font-size: 0.8em;
 	}
+	.cid-rowjJvyg8P .image_wrapper {
+		height: 300px;
+	}
+	.carousel-inner-edu {
+		min-height: 420px;
+	}
 }
 @media (max-width: 767.98px) {
 	.team-item > .item-caption > .item-name > p {
@@ -328,6 +345,13 @@
 	.college-caption {
 		font-size: 0.8em;
 	}
+	.edu-col-text {
+		padding: 2em 0;
+	}
+	.edu-col-text > div {
+		padding-right: 2.5em;
+		padding-left: 2em;
+	}
 }
 @media (max-width: 575.98px) {
 	.team-item > .item-caption > .item-name > p {
@@ -370,5 +394,11 @@
 	}
 	.college-caption {
 		font-size: 0.7em;
+	}
+	.cid-rowjJvyg8P .image_wrapper {
+		height: 250px;
+	}
+	.carousel-inner-edu {
+		min-height: 410px;
 	}
 }

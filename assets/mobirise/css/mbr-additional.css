@@ -5258,7 +5258,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 992px) {
 	.cid-rowfe5dAYE .mbr-figure {
-		padding-right: 4rem;
+		padding-left: 4rem;
 	}
 }
 @media (max-width: 991px) {
@@ -5270,8 +5270,7 @@ section.lazy-placeholder:after {
 	color: #767676;
 }
 .cid-rowbYp5Fte {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 80px;
 	background-color: #ffffff;
 }
 .cid-rowlSSVncH {
@@ -8108,9 +8107,9 @@ section.lazy-placeholder:after {
 .cid-rowjJvyg8P .carousel-item .container-slide {
 	text-align: center;
 }
-/* .cid-rowjJvyg8P .content-slider-wrap {
+.cid-rowjJvyg8P .content-slider-wrap {
 	width: 60%;
-} */
+}
 .cid-sIF6XZqV2K {
 	padding-top: 60px;
 	padding-bottom: 60px;
