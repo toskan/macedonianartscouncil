@@ -1945,7 +1945,7 @@ section.lazy-placeholder:after {
 .cid-sIFcvKXSbz {
 	padding-top: 0px;
 	padding-bottom: 0px;
-	background-color: #fafafa;
+	background-color: white;
 }
 .cid-sIFcvKXSbz iframe {
 	margin-left: auto;
@@ -2027,7 +2027,7 @@ section.lazy-placeholder:after {
 .cid-sIFcWtovly {
 	padding-top: 0px;
 	padding-bottom: 0px;
-	background-color: #fafafa;
+	background-color: white;
 }
 .cid-sIFcWtovly iframe {
 	margin-left: auto;
@@ -5719,6 +5719,8 @@ section.lazy-placeholder:after {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	background-color: #ffffff;
+	margin-top: 0.5em;
+	margin-bottom: 5em;
 }
 .cid-rnDNv4PKg1 .mbr-slider .carousel-control {
 	background: #1b1b1b;
