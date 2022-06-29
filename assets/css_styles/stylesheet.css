@@ -159,6 +159,9 @@
 	.carousel-inner-edu {
 		min-height: 500px;
 	}
+	.college-caption {
+		font-size: 0.95em;
+	}
 }
 @media (min-width: 1200px) {
 	.iframe-container-partings {
