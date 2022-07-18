@@ -1,0 +1,14 @@
+.mable {
+    font-size: 26pt;
+}
+.pine {
+    font-size: 20pt;
+}
+@media only screen and (max-width: 995px) {
+   .mable {
+       font-size: 20pt;
+   }
+   .pine {
+    font-size: 15pt;
+}
+  }
